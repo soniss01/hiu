@@ -1,0 +1,114 @@
+2024-07-31T09:22:52.8713642+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-31T09:22:52.8921032+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-31T09:22:52.9014527+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-31T09:23:04.2809481+05:30 40000030-0006-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T09:23:04.3021367+05:30 40000030-0006-ff00-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 09:23:04 (d0c2b36e)
+2024-07-31T09:23:12.2709435+05:30 40000030-0006-ff00-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T09:24:15.9334114+05:30 40000030-0006-ff00-b63f-84710c7967bb [ERR] Error:Object reference not set to an instance of an object.    at HIUServices.Helpers.DHKeyExchangeCrypto.GenerateKey() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Helpers\DHKeyExchangeCrypto.cs:line 106
+   at HIUServices.Controllers.RequestController.HealthInformationRequest(HealthInformationCmRequestDto requestObj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 304 (e0b0b1f5)
+2024-07-31T09:24:21.3978776+05:30 40000032-0006-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T09:24:21.4012721+05:30 40000032-0006-ff00-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 09:24:21 (ad7a722e)
+2024-07-31T09:24:23.0269251+05:30 40000032-0006-ff00-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T09:25:02.5718625+05:30 40000032-0006-ff00-b63f-84710c7967bb [ERR] Error:Object reference not set to an instance of an object.    at HIUServices.Helpers.DHKeyExchangeCrypto.GenerateKey() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Helpers\DHKeyExchangeCrypto.cs:line 106
+   at HIUServices.Controllers.RequestController.HealthInformationRequest(HealthInformationCmRequestDto requestObj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 304 (e0b0b1f5)
+2024-07-31T09:31:42.3493426+05:30 4000018f-0008-fc00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T09:31:42.3514858+05:30 4000018f-0008-fc00-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 09:31:42 (79098d33)
+2024-07-31T09:31:44.6430859+05:30 4000018f-0008-fc00-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T09:40:16.9936073+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-31T09:40:17.0069395+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-31T09:40:17.0091750+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-31T09:40:26.8399062+05:30 40000064-000a-f900-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T09:40:26.8598347+05:30 40000064-000a-f900-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 09:40:26 (ee5f14e4)
+2024-07-31T09:40:53.1432397+05:30 40000064-000a-f900-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T11:45:20.4999150+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-31T11:45:20.5142053+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-31T11:45:20.5159439+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-31T11:45:43.1086068+05:30 4000006a-000a-f900-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T11:45:43.1351157+05:30 4000006a-000a-f900-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 11:45:43 (64df35c1)
+2024-07-31T11:45:47.9565750+05:30 4000006a-000a-f900-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T11:46:59.3372166+05:30 4000006a-000a-f900-b63f-84710c7967bb [ERR] Failed executing DbCommand ("27"ms) [Parameters=["@p_request_id='?', @p_timestamp='?' (DbType = DateTime2), @p_consent_id='?', @p_expiry='?' (DbType = DateTime2), @p_from='?' (DbType = DateTime2), @p_to='?' (DbType = DateTime2), @p_source_id='?' (DbType = Int32), @p_receiver_public_key='?', @p_receiver_private_key='?', @p_receiver_nonce='?'"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_hi_cm_request_insert(
+            @p_request_id::character varying, 
+            @p_timestamp::timestamp without time zone, 
+            @p_consent_id::character varying, 
+            @p_expiry::timestamp without time zone, 
+            @p_from::timestamp without time zone, 
+            @p_to::timestamp without time zone, 
+            @p_source_id::integer, 
+            @p_receiver_public_key::character varying, 
+            @p_receiver_private_key::character varying, 
+            @p_receiver_nonce::character varying)" (627a98df)
+2024-07-31T12:30:42.3751391+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-31T12:30:42.3899101+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-31T12:30:42.4119037+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-31T12:30:49.9669728+05:30 40000067-0002-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T12:30:49.9882656+05:30 40000067-0002-fd00-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 12:30:49 (35e0cc12)
+2024-07-31T12:30:53.3420012+05:30 40000067-0002-fd00-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T12:31:03.6100539+05:30 40000067-0002-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("76"ms) [Parameters=["@p_request_id='?', @p_timestamp='?' (DbType = DateTime2), @p_consent_id='?', @p_expiry='?' (DbType = DateTime2), @p_from='?' (DbType = DateTime2), @p_to='?' (DbType = DateTime2), @p_source_id='?' (DbType = Int32), @p_receiver_public_key='?', @p_receiver_private_key='?', @p_receiver_nonce='?'"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_hi_cm_request_insert(
+            @p_request_id::character varying, 
+            @p_timestamp::timestamp without time zone, 
+            @p_consent_id::character varying, 
+            @p_expiry::timestamp without time zone, 
+            @p_from::timestamp without time zone, 
+            @p_to::timestamp without time zone, 
+            @p_source_id::integer, 
+            @p_receiver_public_key::character varying, 
+            @p_receiver_private_key::character varying, 
+            @p_receiver_nonce::character varying)" (627a98df)
+2024-07-31T12:33:41.4099888+05:30 40000067-0002-fd00-b63f-84710c7967bb [ERR] Error:22001: value too long for type character varying(255)    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertHIRequestData(HealthInformationRequestInsert obj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 250
+   at HIUServices.Controllers.RequestController.HealthInformationRequest(HealthInformationCmRequestDto requestObj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 368 (20a09d55)
+2024-07-31T12:39:48.4682630+05:30 40000027-0008-f900-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T12:39:48.4720659+05:30 40000027-0008-f900-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 12:39:48 (90b970ed)
+2024-07-31T12:39:50.2275078+05:30 40000027-0008-f900-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T12:40:06.3106505+05:30 40000027-0008-f900-b63f-84710c7967bb [ERR] Failed executing DbCommand ("38"ms) [Parameters=["@p_request_id='?', @p_timestamp='?' (DbType = DateTime2), @p_consent_id='?', @p_expiry='?' (DbType = DateTime2), @p_from='?' (DbType = DateTime2), @p_to='?' (DbType = DateTime2), @p_source_id='?' (DbType = Int32), @p_receiver_public_key='?', @p_receiver_private_key='?', @p_receiver_nonce='?'"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_hi_cm_request_insert(
+            @p_request_id::character varying, 
+            @p_timestamp::timestamp without time zone, 
+            @p_consent_id::character varying, 
+            @p_expiry::timestamp without time zone, 
+            @p_from::timestamp without time zone, 
+            @p_to::timestamp without time zone, 
+            @p_source_id::integer, 
+            @p_receiver_public_key::character varying, 
+            @p_receiver_private_key::character varying, 
+            @p_receiver_nonce::character varying)" (627a98df)
+2024-07-31T12:40:18.5816306+05:30 40000027-0008-f900-b63f-84710c7967bb [ERR] Error:22001: value too long for type character varying(500)    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertHIRequestData(HealthInformationRequestInsert obj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 250
+   at HIUServices.Controllers.RequestController.HealthInformationRequest(HealthInformationCmRequestDto requestObj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 368 (c9c3c4a5)
+2024-07-31T12:40:21.1302156+05:30 40000020-0009-fb00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-31T12:40:21.1331648+05:30 40000020-0009-fb00-b63f-84710c7967bb [INF] Request API Started at:31-07-2024 12:40:21 (548be192)
+2024-07-31T12:40:24.5750118+05:30 40000020-0009-fb00-b63f-84710c7967bb [INF] health-information/request (f15e905a)
+2024-07-31T12:45:29.0920125+05:30 40000020-0009-fb00-b63f-84710c7967bb [INF] Executed DbCommand ("70"ms) [Parameters=["@p_request_id='?', @p_timestamp='?' (DbType = DateTime2), @p_consent_id='?', @p_expiry='?' (DbType = DateTime2), @p_from='?' (DbType = DateTime2), @p_to='?' (DbType = DateTime2), @p_source_id='?' (DbType = Int32), @p_receiver_public_key='?', @p_receiver_private_key='?', @p_receiver_nonce='?'"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_hi_cm_request_insert(
+            @p_request_id::character varying, 
+            @p_timestamp::timestamp without time zone, 
+            @p_consent_id::character varying, 
+            @p_expiry::timestamp without time zone, 
+            @p_from::timestamp without time zone, 
+            @p_to::timestamp without time zone, 
+            @p_source_id::integer, 
+            @p_receiver_public_key::character varying, 
+            @p_receiver_private_key::character varying, 
+            @p_receiver_nonce::character varying)" (0723d8ff)

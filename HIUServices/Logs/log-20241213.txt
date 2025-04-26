@@ -1,0 +1,78 @@
+2024-12-13T10:32:09.9255561+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-12-13T10:32:09.9291773+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-12-13T10:32:09.9327575+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-12-13T10:32:09.9349833+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-12-13T10:32:09.9368801+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-12-13T10:33:01.4085747+05:30 0HN8R6D6EIL9K:00000013 [INF] ================================================= (9934009c)
+2024-12-13T10:33:01.4224966+05:30 0HN8R6D6EIL9K:00000013 [INF] Request API Started at:13-12-2024 10:33:01 (b971ec10)
+2024-12-13T10:33:05.8949974+05:30 0HN8R6D6EIL9K:00000013 [INF] consent-requests/data (8b449d30)
+2024-12-13T10:33:15.2595503+05:30 0HN8R6D6EIL9K:00000013 [ERR] Error:42804: structure of query does not match function result type
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 516
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 413 (8fe250e9)
+2024-12-13T10:34:21.0344609+05:30 0HN8R6D6EIL9K:00000015 [INF] ================================================= (9934009c)
+2024-12-13T10:34:21.0375603+05:30 0HN8R6D6EIL9K:00000015 [INF] Request API Started at:13-12-2024 10:34:21 (a1f8248d)
+2024-12-13T10:34:24.5662068+05:30 0HN8R6D6EIL9K:00000015 [INF] consent-requests/data (8b449d30)
+2024-12-13T10:39:11.4274680+05:30 0HN8R6D6EIL9K:00000015 [ERR] Error:42804: structure of query does not match function result type
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 516
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 413 (8fe250e9)
+2024-12-13T10:39:55.2297666+05:30 0HN8R6D6EIL9K:00000017 [INF] ================================================= (9934009c)
+2024-12-13T10:39:55.2319593+05:30 0HN8R6D6EIL9K:00000017 [INF] Request API Started at:13-12-2024 10:39:55 (a3fe6c69)
+2024-12-13T10:39:58.4098186+05:30 0HN8R6D6EIL9K:00000017 [INF] consent-requests/data (8b449d30)
+2024-12-13T10:40:03.9339180+05:30 0HN8R6D6EIL9K:00000017 [ERR] Error:42804: structure of query does not match function result type
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 516
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 413 (8fe250e9)
+2024-12-13T10:43:37.1941895+05:30 0HN8R6D6EIL9K:00000019 [INF] ================================================= (9934009c)
+2024-12-13T10:43:37.1966577+05:30 0HN8R6D6EIL9K:00000019 [INF] Request API Started at:13-12-2024 10:43:37 (ac36db13)
+2024-12-13T10:43:39.0858976+05:30 0HN8R6D6EIL9K:00000019 [INF] consent-requests/data (8b449d30)
+2024-12-13T10:44:48.0484914+05:30 0HN8R6D6EIL9K:00000019 [ERR] Error:42804: structure of query does not match function result type
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 516
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 413 (8fe250e9)
+2024-12-13T10:47:30.0482520+05:30 0HN8R6D6EIL9K:0000001B [INF] ================================================= (9934009c)
+2024-12-13T10:47:30.0519322+05:30 0HN8R6D6EIL9K:0000001B [INF] Request API Started at:13-12-2024 10:47:30 (6cd2b9c7)
+2024-12-13T10:47:32.7300454+05:30 0HN8R6D6EIL9K:0000001B [INF] consent-requests/data (8b449d30)
+2024-12-13T10:47:39.1682606+05:30 0HN8R6D6EIL9K:0000001B [ERR] Error:42804: structure of query does not match function result type
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 516
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 413 (8fe250e9)
+2024-12-13T10:54:41.6772784+05:30 0HN8R6D6EIL9N:00000001 [INF] ================================================= (9934009c)
+2024-12-13T10:54:41.6791065+05:30 0HN8R6D6EIL9N:00000001 [INF] Request API Started at:13-12-2024 10:54:41 (a21b6e8f)
+2024-12-13T10:54:43.4685689+05:30 0HN8R6D6EIL9N:00000001 [INF] consent-requests/data (8b449d30)

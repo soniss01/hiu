@@ -1,0 +1,620 @@
+2024-10-11T10:41:01.5206634+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T10:41:01.5251327+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T10:41:01.5291039+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T10:41:01.5313372+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T10:41:01.5330761+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T10:43:34.8155486+05:30 0HN79MCCN8878:00000001 [INF] ================================================= (9934009c)
+2024-10-11T10:43:34.8240629+05:30 0HN79MCCN8878:00000001 [INF] Request API Started at:11-10-2024 10:43:34 (6a90589b)
+2024-10-11T10:43:38.1280742+05:30 0HN79MCCN8878:00000001 [INF] health-information/request (f15e905a)
+2024-10-11T10:50:40.2110840+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T10:50:40.2142574+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T10:50:40.2177652+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T10:50:40.2194844+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T10:50:40.2214484+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T10:52:22.5477750+05:30 0HN79MHPA3B09:00000001 [INF] ================================================= (9934009c)
+2024-10-11T10:52:22.5589151+05:30 0HN79MHPA3B09:00000001 [INF] Request API Started at:11-10-2024 10:52:22 (9eabe442)
+2024-10-11T10:52:26.8982872+05:30 0HN79MHPA3B09:00000001 [INF] health-information/request (f15e905a)
+2024-10-11T15:52:42.0128003+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T15:52:42.0167750+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T15:52:42.0205574+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T15:52:42.0229432+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T15:52:42.0245958+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T15:52:54.0979856+05:30 0HN79RQHTAJ0H:00000009 [INF] ================================================= (9934009c)
+2024-10-11T15:52:54.1044221+05:30 0HN79RQHTAJ0H:00000009 [INF] Master API Started at:11-10-2024 15:52:54 (be2cdbce)
+2024-10-11T15:52:55.0843876+05:30 0HN79RQHTAJ0H:00000009 [INF] Executed DbCommand ("61"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT * FROM sp_hiu_select_purposeofuse()" (0723d8ff)
+2024-10-11T15:53:21.3264731+05:30 0HN79RQHTAJ0H:0000000B [INF] ================================================= (9934009c)
+2024-10-11T15:53:21.3283917+05:30 0HN79RQHTAJ0H:0000000B [INF] Request API Started at:11-10-2024 15:53:21 (6e7ac9df)
+2024-10-11T15:53:21.3334948+05:30 0HN79RQHTAJ0H:0000000B [INF] ================================================= (9934009c)
+2024-10-11T15:53:21.3353478+05:30 0HN79RQHTAJ0H:0000000B [INF] consents/hiu/notify call at: 11-10-2024 15:53:21 (dd934151)
+2024-10-11T15:53:21.3383585+05:30 0HN79RQHTAJ0H:0000000B [INF] Received JSON:  (eb5e6f7b)
+2024-10-11T15:53:21.7413249+05:30 0HN79RQHTAJ0H:0000000B [ERR] The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0. (861c358a)
+System.Text.Json.JsonException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at HIUServices.Controllers.CallbackController.ConsentsHiuNotify() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 126
+2024-10-11T15:54:19.9294535+05:30 0HN79RQHTAJ0I:00000001 [INF] ================================================= (9934009c)
+2024-10-11T15:54:19.9315825+05:30 0HN79RQHTAJ0I:00000001 [INF] Request API Started at:11-10-2024 15:54:19 (322715a2)
+2024-10-11T15:54:47.7627368+05:30 0HN79RQHTAJ0I:00000001 [INF] ================================================= (9934009c)
+2024-10-11T15:54:48.5557049+05:30 0HN79RQHTAJ0I:00000001 [INF] consents/on-fetch call at: 11-10-2024 15:54:48 (37a7c88b)
+2024-10-11T15:54:52.0794095+05:30 0HN79RQHTAJ0I:00000001 [INF] Received JSON: {
+    "requestId": "37c8fe81-83fb-4fdf-b0b0-c481c5c0086f",
+    "timestamp": "2024-10-11T04:54:37.969Z",
+    "consent": {
+        "status": "GRANTED",
+        "consentDetail": {
+            "consentId": "33273d2d-eb74-495a-a1df-edde394a418c",
+            "hip": {
+                "id": "rch_hip",
+                "name": "RCH_HIP",
+                "type": "HIP"
+            },
+            "hiu": {
+                "id": "SBX_000287_HIU"
+            },
+            "hiTypes": [
+                "Prescription",
+                "OPConsultation",
+                "ImmunizationRecord",
+                "HealthDocumentRecord",
+                "WellnessRecord"
+            ],
+            "patient": {
+                "id": "57818821603088@sbx"
+            },
+            "purpose": {
+                "text": "Care Management",
+                "code": "CAREMGT",
+                "refUri": "www.abdm.gov.in"
+            },
+            "createdAt": "2024-10-11T04:43:56.354Z",
+            "requester": {
+                "name": "Urvasi",
+                "identifier": {
+                    "value": "542",
+                    "type": "REGNO",
+                    "system": "https://www.mciindia.org"
+                }
+            },
+            "permission": {
+                "accessMode": "VIEW",
+                "dateRange": {
+                    "from": "2013-08-01T00:00:00.000Z",
+                    "to": "2024-10-01T00:00:00.000Z"
+                },
+                "dataEraseAt": "2024-10-30T18:30:00.000Z",
+                "frequency": {
+                    "unit": "HOUR",
+                    "value": 1,
+                    "repeats": 0
+                }
+            },
+            "lastUpdated": "2024-10-11T04:43:56.240Z",
+            "careContexts": [
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MP-116000658205-1-141888"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "CP-216000364484-0-87884"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "EC-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MM-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-116000658205-1-656259"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MR-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MD-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MI-116000658205-1-127460"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-6930"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7005"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7001"
+                }
+            ],
+            "schemaVersion": "v3",
+            "consentManager": {
+                "id": "sbx"
+            }
+        },
+        "signature": "UE6JQ97Jbc9jE28ceqbkENMrhAN2Xl3iPlN9+rpXd035vmMLVFzsxK3DaYISJEKqiW1SFfU+7nJC3iZEJjk/vdZvylXtduuQA6dJCmHg0TpJCfyT52akKrfzLc6EZE+9AicOMMNkDZKpsHc4HzvpB9ZrsPiIl+Na7tEcrcV6Rsya6mNtgP8Q3Z1gPpOxLs7RsTVGnAjoXDq3JasTfVo5FHibxW+Bug5xFLBzkJTccz39k/SQdvtLewb3g6wmb3mBI2q0pjlz+qTgSRlJTw+Venpn/4sM0HHPWaxPI+hk62/fhTgMMkIOABOUO7IImIyeQB1yg9KXgmsW+FoNFK54sg=="
+    },
+    "error": null,
+    "response": null,
+    "resp": {
+        "requestId": "8ed9ab8c-4956-483f-88c6-4608fb8a26cf"
+    }
+} (22fc8f2e)
+2024-10-11T16:01:32.8220201+05:30 0HN79RQHTAJ0I:00000001 [INF] Database update result: -1 (2c0f0805)
+2024-10-11T16:25:55.2933021+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T16:25:55.2965377+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T16:25:55.2999914+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T16:25:55.3018273+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T16:25:55.3035196+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T16:26:23.0872343+05:30 0HN79SD41Q06Q:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:26:23.1007317+05:30 0HN79SD41Q06Q:00000001 [INF] Request API Started at:11-10-2024 16:26:23 (59b12b8a)
+2024-10-11T16:26:25.8040017+05:30 0HN79SD41Q06Q:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:26:26.1802470+05:30 0HN79SD41Q06Q:00000001 [INF] consents/on-fetch call at: 11-10-2024 16:26:26 (e10686a7)
+2024-10-11T16:26:27.8601855+05:30 0HN79SD41Q06Q:00000001 [INF] Received JSON: {
+    "status": "GRANTED",
+    "consentDetail": {
+        "consentId": "df4fa385-28dd-4803-84a0-54bc3275f45e",
+        "hip": {
+            "id": "rch_hip",
+            "name": "RCH_HIP",
+            "type": "HIP"
+        },
+        "hiu": {
+            "id": "SBX_000287_HIU"
+        },
+        "hiTypes": [
+            "Prescription",
+            "OPConsultation",
+            "HealthDocumentRecord"
+        ],
+        "patient": {
+            "id": "57818821603088@sbx"
+        },
+        "purpose": {
+            "text": "Care Management",
+            "code": "CAREMGT",
+            "refUri": "www.abdm.gov.in"
+        },
+        "createdAt": "2024-10-11T10:40:29.103Z",
+        "requester": {
+            "name": "Urvasi",
+            "identifier": {
+                "value": "542",
+                "type": "REGNO",
+                "system": "https://www.mciindia.org"
+            }
+        },
+        "permission": {
+            "accessMode": "VIEW",
+            "dateRange": {
+                "from": "2014-07-24T00:00:00.000Z",
+                "to": "2024-10-03T00:00:00.000Z"
+            },
+            "dataEraseAt": "2024-10-31T11:30:00.000Z",
+            "frequency": {
+                "unit": "HOUR",
+                "value": 1,
+                "repeats": 0
+            }
+        },
+        "lastUpdated": "2024-10-11T10:40:29.131Z",
+        "careContexts": [
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MP-116000658205-1-141888"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "CP-216000364484-0-87884"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "EC-116000658205-1-000"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MM-116000658205-1-000"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MA-116000658205-1-656259"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MR-116000658205-1-000"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MD-116000658205-1-000"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MI-116000658205-1-127460"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MA-130000000001-1-6930"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MA-130000000001-1-7005"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MA-130000000001-1-7000"
+            },
+            {
+                "patientReference": "116000658205",
+                "careContextReference": "MA-130000000001-1-7001"
+            }
+        ],
+        "schemaVersion": "v3",
+        "consentManager": {
+            "id": "sbx"
+        }
+    },
+    "signature": "qj61AnojXf+QK+VBT5VwhvJ6zGJEFzoGyY2dUDIKepfOMExrfIcZPHNY63m4UL3LFk9lr+t0ODD33RutT4LVqD7P5p2R49otEC10BszSfJAKdpUrlvWBbwdH0IGrbx6Q9f+q/DVcCa4idC9oyQ/wn1w1glvZgV0rQtEZxhaSlHc3NC7qogzbgXYJuTnv9bf+eti0ZiJGMZT5gPCfaDoFGLRooXeYE5F+LH/wEow7xebDacSeOoc07AMOt594JX9aKh15CpVU5o3VdY4uKTdywAyuzNqKnsVlcF0YuAP77sSJOaHfuTFNxfybWowICr1ItO3ITJcDSkBgNvzdRKKlNQ=="
+},
+"error": null,
+"response": null,
+"resp": {
+    "requestId": "887d0b2a-1088-4981-933e-b52f52c0b2b5"
+}
+} (ed118c51)
+2024-10-11T16:26:41.6352114+05:30 0HN79SD41Q06Q:00000001 [ERR] ',' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 104 | BytePositionInLine: 1. (a0459658)
+System.Text.Json.JsonException: ',' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 104 | BytePositionInLine: 1.
+ ---> System.Text.Json.JsonReaderException: ',' is invalid after a single JSON value. Expected end of data. LineNumber: 104 | BytePositionInLine: 1.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at HIUServices.Controllers.CallbackController.ConsentDetails() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 210
+2024-10-11T16:27:31.1996596+05:30 0HN79SD41Q06R:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:27:31.2022508+05:30 0HN79SD41Q06R:00000001 [INF] Request API Started at:11-10-2024 16:27:31 (9a9f075f)
+2024-10-11T16:27:33.0889082+05:30 0HN79SD41Q06R:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:27:33.4568815+05:30 0HN79SD41Q06R:00000001 [INF] consents/on-fetch call at: 11-10-2024 16:27:33 (984f9058)
+2024-10-11T16:27:35.7120339+05:30 0HN79SD41Q06R:00000001 [INF] Received JSON: {
+    "requestId": "37c8fe81-83fb-4fdf-b0b0-c481c5c0086f",
+    "timestamp": "2024-10-11T04:54:37.969Z",
+    "consent": {
+        "status": "GRANTED",
+        "consentDetail": {
+            "consentId": "33273d2d-eb74-495a-a1df-edde394a418c",
+            "hip": {
+                "id": "rch_hip",
+                "name": "RCH_HIP",
+                "type": "HIP"
+            },
+            "hiu": {
+                "id": "SBX_000287_HIU"
+            },
+            "hiTypes": [
+                "Prescription",
+                "OPConsultation",
+                "ImmunizationRecord",
+                "HealthDocumentRecord",
+                "WellnessRecord"
+            ],
+            "patient": {
+                "id": "57818821603088@sbx"
+            },
+            "purpose": {
+                "text": "Care Management",
+                "code": "CAREMGT",
+                "refUri": "www.abdm.gov.in"
+            },
+            "createdAt": "2024-10-11T04:43:56.354Z",
+            "requester": {
+                "name": "Urvasi",
+                "identifier": {
+                    "value": "542",
+                    "type": "REGNO",
+                    "system": "https://www.mciindia.org"
+                }
+            },
+            "permission": {
+                "accessMode": "VIEW",
+                "dateRange": {
+                    "from": "2013-08-01T00:00:00.000Z",
+                    "to": "2024-10-01T00:00:00.000Z"
+                },
+                "dataEraseAt": "2024-10-30T18:30:00.000Z",
+                "frequency": {
+                    "unit": "HOUR",
+                    "value": 1,
+                    "repeats": 0
+                }
+            },
+            "lastUpdated": "2024-10-11T04:43:56.240Z",
+            "careContexts": [
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MP-116000658205-1-141888"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "CP-216000364484-0-87884"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "EC-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MM-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-116000658205-1-656259"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MR-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MD-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MI-116000658205-1-127460"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-6930"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7005"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7001"
+                }
+            ],
+            "schemaVersion": "v3",
+            "consentManager": {
+                "id": "sbx"
+            }
+        },
+        "signature": "UE6JQ97Jbc9jE28ceqbkENMrhAN2Xl3iPlN9+rpXd035vmMLVFzsxK3DaYISJEKqiW1SFfU+7nJC3iZEJjk/vdZvylXtduuQA6dJCmHg0TpJCfyT52akKrfzLc6EZE+9AicOMMNkDZKpsHc4HzvpB9ZrsPiIl+Na7tEcrcV6Rsya6mNtgP8Q3Z1gPpOxLs7RsTVGnAjoXDq3JasTfVo5FHibxW+Bug5xFLBzkJTccz39k/SQdvtLewb3g6wmb3mBI2q0pjlz+qTgSRlJTw+Venpn/4sM0HHPWaxPI+hk62/fhTgMMkIOABOUO7IImIyeQB1yg9KXgmsW+FoNFK54sg=="
+    },
+    "error": null,
+    "response": null,
+    "resp": {
+        "requestId": "8ed9ab8c-4956-483f-88c6-4608fb8a26cf"
+    }
+} (22fc8f2e)
+2024-10-11T16:36:23.4725337+05:30 0HN79SD41Q06R:00000001 [ERR] Failed to connect to 10.194.162.47:5432 (46ca1a1c)
+Npgsql.NpgsqlException (0x80004005): Failed to connect to 10.194.162.47:5432
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Callbacks.CallbackService.ConsentsDetailsUpdate(HiuConsentDetailUpdate obj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Callbacks\CallbackService.cs:line 165
+   at HIUServices.Controllers.CallbackController.ConsentDetails() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 233
+2024-10-11T16:36:28.5359981+05:30 0HN79SD41Q06S:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:36:28.5376495+05:30 0HN79SD41Q06S:00000001 [INF] Request API Started at:11-10-2024 16:36:28 (9263a665)
+2024-10-11T16:36:34.5013953+05:30 0HN79SD41Q06S:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:36:34.7781194+05:30 0HN79SD41Q06S:00000001 [INF] consents/on-fetch call at: 11-10-2024 16:36:34 (ad1ab76c)
+2024-10-11T16:36:35.5397815+05:30 0HN79SD41Q06S:00000001 [INF] Received JSON: {
+    "requestId": "37c8fe81-83fb-4fdf-b0b0-c481c5c0086f",
+    "timestamp": "2024-10-11T04:54:37.969Z",
+    "consent": {
+        "status": "GRANTED",
+        "consentDetail": {
+            "consentId": "33273d2d-eb74-495a-a1df-edde394a418c",
+            "hip": {
+                "id": "rch_hip",
+                "name": "RCH_HIP",
+                "type": "HIP"
+            },
+            "hiu": {
+                "id": "SBX_000287_HIU"
+            },
+            "hiTypes": [
+                "Prescription",
+                "OPConsultation",
+                "ImmunizationRecord",
+                "HealthDocumentRecord",
+                "WellnessRecord"
+            ],
+            "patient": {
+                "id": "57818821603088@sbx"
+            },
+            "purpose": {
+                "text": "Care Management",
+                "code": "CAREMGT",
+                "refUri": "www.abdm.gov.in"
+            },
+            "createdAt": "2024-10-11T04:43:56.354Z",
+            "requester": {
+                "name": "Urvasi",
+                "identifier": {
+                    "value": "542",
+                    "type": "REGNO",
+                    "system": "https://www.mciindia.org"
+                }
+            },
+            "permission": {
+                "accessMode": "VIEW",
+                "dateRange": {
+                    "from": "2013-08-01T00:00:00.000Z",
+                    "to": "2024-10-01T00:00:00.000Z"
+                },
+                "dataEraseAt": "2024-10-30T18:30:00.000Z",
+                "frequency": {
+                    "unit": "HOUR",
+                    "value": 1,
+                    "repeats": 0
+                }
+            },
+            "lastUpdated": "2024-10-11T04:43:56.240Z",
+            "careContexts": [
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MP-116000658205-1-141888"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "CP-216000364484-0-87884"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "EC-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MM-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-116000658205-1-656259"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MR-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MD-116000658205-1-000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MI-116000658205-1-127460"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-6930"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7005"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7000"
+                },
+                {
+                    "patientReference": "116000658205",
+                    "careContextReference": "MA-130000000001-1-7001"
+                }
+            ],
+            "schemaVersion": "v3",
+            "consentManager": {
+                "id": "sbx"
+            }
+        },
+        "signature": "UE6JQ97Jbc9jE28ceqbkENMrhAN2Xl3iPlN9+rpXd035vmMLVFzsxK3DaYISJEKqiW1SFfU+7nJC3iZEJjk/vdZvylXtduuQA6dJCmHg0TpJCfyT52akKrfzLc6EZE+9AicOMMNkDZKpsHc4HzvpB9ZrsPiIl+Na7tEcrcV6Rsya6mNtgP8Q3Z1gPpOxLs7RsTVGnAjoXDq3JasTfVo5FHibxW+Bug5xFLBzkJTccz39k/SQdvtLewb3g6wmb3mBI2q0pjlz+qTgSRlJTw+Venpn/4sM0HHPWaxPI+hk62/fhTgMMkIOABOUO7IImIyeQB1yg9KXgmsW+FoNFK54sg=="
+    },
+    "error": null,
+    "response": null,
+    "resp": {
+        "requestId": "8ed9ab8c-4956-483f-88c6-4608fb8a26cf"
+    }
+} (22fc8f2e)
+2024-10-11T16:37:48.9998309+05:30 0HN79SD41Q06S:00000001 [INF] Database update result: -1 (2c0f0805)
+2024-10-11T16:43:25.7516937+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T16:43:25.7550257+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T16:43:25.7604144+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T16:43:25.7623143+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T16:43:25.7640485+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T16:46:00.2903834+05:30 0HN79SMT3P59F:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:46:00.3093741+05:30 0HN79SMT3P59F:00000001 [INF] Request API Started at:11-10-2024 16:46:00 (ac75271a)
+2024-10-11T16:46:10.2496938+05:30 0HN79SMT3P59F:00000001 [INF] health-information/request (f15e905a)
+2024-10-11T16:51:08.3078319+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T16:51:08.3111250+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T16:51:08.3144448+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T16:51:08.3167249+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T16:51:08.3189729+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T16:51:22.2593517+05:30 0HN79SR6VNUG3:00000009 [INF] ================================================= (9934009c)
+2024-10-11T16:51:22.2698134+05:30 0HN79SR6VNUG3:00000009 [INF] Request API Started at:11-10-2024 16:51:22 (7f33839d)
+2024-10-11T16:51:25.9849491+05:30 0HN79SR6VNUG3:00000009 [INF] health-information/request (f15e905a)
+2024-10-11T16:58:46.5156799+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-10-11T16:58:46.5191540+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-10-11T16:58:46.5226576+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-10-11T16:58:46.5246338+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-10-11T16:58:46.5262320+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-10-11T16:59:00.2188643+05:30 0HN79SVFFHR4G:00000009 [INF] ================================================= (9934009c)
+2024-10-11T16:59:00.2280010+05:30 0HN79SVFFHR4G:00000009 [INF] Request API Started at:11-10-2024 16:59:00 (f22bec2a)
+2024-10-11T16:59:04.4318080+05:30 0HN79SVFFHR4G:00000009 [INF] health-information/request (f15e905a)
+2024-10-11T16:59:19.7869525+05:30 0HN79SVFFHR4G:00000009 [ERR] An error occurred using the connection to database '"hiu_stag"' on server '"tcp://10.194.162.47:5432"'. (5fc3407c)
+2024-10-11T16:59:23.2023747+05:30 0HN79SVFFHR4G:00000009 [ERR] Error:An exception has been raised that is likely due to a transient failure. Npgsql.NpgsqlException (0x80004005): Failed to connect to 10.194.162.47:5432
+ ---> System.Net.Sockets.SocketException (10053): An established connection was aborted by the software in your host machine.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.GetHIDataByConsentId(String consentId) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 88
+   at HIUServices.Controllers.RequestController.HealthInformationRequest(HealthInformationCmRequestDto requestObj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 292 (e08cb5ce)
+2024-10-11T16:59:32.3638659+05:30 0HN79SVFFHR4I:00000001 [INF] ================================================= (9934009c)
+2024-10-11T16:59:32.3672540+05:30 0HN79SVFFHR4I:00000001 [INF] Request API Started at:11-10-2024 16:59:32 (5ced44df)
+2024-10-11T16:59:34.7864069+05:30 0HN79SVFFHR4I:00000001 [INF] health-information/request (f15e905a)
+2024-10-11T17:00:19.0823627+05:30 0HN79SVFFHR4I:00000001 [INF] Executed DbCommand ("53"ms) [Parameters=["@p_request_id='?', @p_timestamp='?', @p_consent_id='?', @p_expiry='?' (DbType = DateTime2), @p_from='?' (DbType = DateTime2), @p_to='?' (DbType = DateTime2), @p_source_id='?' (DbType = Int32), @p_receiver_public_key='?', @p_receiver_private_key='?', @p_receiver_nonce='?'"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_hi_request_insert(
+            @p_request_id::character varying, 
+            @p_timestamp::character varying, 
+            @p_consent_id::character varying, 
+            @p_expiry::timestamp without time zone, 
+            @p_from::timestamp without time zone, 
+            @p_to::timestamp without time zone, 
+            @p_source_id::integer, 
+            @p_receiver_public_key::character varying, 
+            @p_receiver_private_key::character varying, 
+            @p_receiver_nonce::character varying)" (0723d8ff)

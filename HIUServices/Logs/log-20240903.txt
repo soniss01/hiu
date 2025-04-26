@@ -1,0 +1,8 @@
+2024-09-03T10:38:37.4495292+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-09-03T10:38:37.4530955+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-09-03T10:38:37.4567097+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-09-03T10:38:37.4584528+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-09-03T10:38:37.4601890+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-09-03T10:39:05.7984514+05:30 0HN6BQPS0BPL0:00000001 [INF] ================================================= (9934009c)
+2024-09-03T10:39:05.8065793+05:30 0HN6BQPS0BPL0:00000001 [INF] Request API Started at:03-09-2024 10:39:05 (1dd7a417)
+2024-09-03T10:39:10.4130164+05:30 0HN6BQPS0BPL0:00000001 [INF] consent-requests/init (54f46c3d)

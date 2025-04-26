@@ -1,0 +1,541 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "HIU APIs",
+    "description": "APIs for managing ABHA HIUs Services.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/callback/v0.5/patients/on-find": {
+      "post": {
+        "tags": [
+          "Callback APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/callback/v0.5/consent-requests/on-init": {
+      "post": {
+        "tags": [
+          "Callback APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/callback/v0.5/consents/hiu/notify": {
+      "post": {
+        "tags": [
+          "Callback APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/callback/v0.5/consents/on-fetch": {
+      "post": {
+        "tags": [
+          "Callback APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/callback/v0.5/health-information/hiu/on-request": {
+      "post": {
+        "tags": [
+          "Callback APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/callback/v0.5/health-information/data/transfer": {
+      "post": {
+        "tags": [
+          "Callback APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/master/v1/get/purpose-of-use": {
+      "get": {
+        "tags": [
+          "Master APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurposeOfUse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurposeOfUse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurposeOfUse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/master/v1/get/hi-types": {
+      "get": {
+        "tags": [
+          "Master APIs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurposeOfUse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurposeOfUse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PurposeOfUse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/request/v1/patients/find": {
+      "post": {
+        "tags": [
+          "Request APIs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientRequestDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/request/v1/consent-requests/init": {
+      "post": {
+        "tags": [
+          "Request APIs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/request/v1/health-information/request": {
+      "post": {
+        "tags": [
+          "Request APIs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationCmRequestDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationCmRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationCmRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationCmRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/request/v1/consent-requests/data": {
+      "post": {
+        "tags": [
+          "Request APIs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestsDataDto"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestsDataDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestsDataDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsentRequestsDataDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/request/v1/health-information/data": {
+      "post": {
+        "tags": [
+          "Request APIs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationDataReq"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationDataReq"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationDataReq"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HealthInformationDataReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ConsentRequestDto": {
+        "required": [
+          "abha_no",
+          "anm_id",
+          "data_erase_at",
+          "dob",
+          "hi_types",
+          "patient_id",
+          "patient_name",
+          "permission_date_from",
+          "permission_date_to",
+          "purpose_code",
+          "purpose_text",
+          "source_id",
+          "state_code"
+        ],
+        "type": "object",
+        "properties": {
+          "anm_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "anm_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "state_code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "patient_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "patient_name": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "abha_no": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dob": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "purpose_text": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "purpose_code": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "hi_types": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "permission_date_from": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "permission_date_to": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "data_erase_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsentRequestsDataDto": {
+        "required": [
+          "anm_id",
+          "state_code"
+        ],
+        "type": "object",
+        "properties": {
+          "anm_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "state_code": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HealthInformationCmRequestDto": {
+        "required": [
+          "consent_id",
+          "expiry",
+          "range_from",
+          "range_to",
+          "source_id"
+        ],
+        "type": "object",
+        "properties": {
+          "consent_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "range_from": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "range_to": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expiry": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HealthInformationDataReq": {
+        "required": [
+          "consent_id"
+        ],
+        "type": "object",
+        "properties": {
+          "consent_id": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PatientRequestDto": {
+        "required": [
+          "abha_no",
+          "anm_id",
+          "dob",
+          "patient_id",
+          "source_id",
+          "state_code"
+        ],
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "abha_no": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dob": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "anm_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "anm_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "state_code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "source_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PurposeOfUse": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "display": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

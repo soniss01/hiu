@@ -1,0 +1,6 @@
+2024-08-07T15:49:58.8146745+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-07T15:49:58.8258246+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-07T15:49:58.8600932+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-07T15:52:40.4249441+05:30 40000025-0002-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-08-07T15:52:40.4397740+05:30 40000025-0002-fd00-b63f-84710c7967bb [INF] Request API Started at:07-08-2024 15:52:40 (76b08fe7)
+2024-08-07T15:52:54.5614920+05:30 40000025-0002-fd00-b63f-84710c7967bb [INF] health-information/request (f15e905a)

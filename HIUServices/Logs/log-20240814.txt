@@ -1,0 +1,335 @@
+2024-08-14T00:19:44.6098661+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T00:19:44.6153322+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T00:19:44.6207620+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T00:19:44.6234857+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T00:19:44.6255571+05:30  [INF] Content root path: "D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T00:20:11.0151859+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T00:20:11.0246032+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T00:20:11.0303048+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T00:20:11.0329131+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T00:20:11.0349269+05:30  [INF] Content root path: "D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T00:20:55.5527664+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T00:20:55.5581168+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T00:20:55.5646576+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T00:20:55.5730368+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T00:20:55.5751748+05:30  [INF] Content root path: "D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T00:21:28.2313733+05:30 0HN5RP3EKLP1C:00000021 [INF] ================================================= (9934009c)
+2024-08-14T00:21:28.2459894+05:30 0HN5RP3EKLP1C:00000021 [INF] Request API Started at:8/14/2024 12:21:28 AM (98a015f7)
+2024-08-14T00:21:31.3827406+05:30 0HN5RP3EKLP1C:00000021 [INF] consent-requests/data (8b449d30)
+2024-08-14T00:21:34.7679068+05:30 0HN5RP3EKLP1C:00000021 [ERR] Error:Object cannot be cast from DBNull to other types.    at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 281
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 405 (d55b76a5)
+2024-08-14T00:21:49.0236286+05:30 0HN5RP3EKLP1C:00000023 [INF] ================================================= (9934009c)
+2024-08-14T00:21:49.0273799+05:30 0HN5RP3EKLP1C:00000023 [INF] Request API Started at:8/14/2024 12:21:49 AM (7f65c5c2)
+2024-08-14T00:21:59.7431769+05:30 0HN5RP3EKLP1C:00000023 [INF] consent-requests/data (8b449d30)
+2024-08-14T00:23:37.8369706+05:30 0HN5RP3EKLP1C:00000023 [ERR] Error:Object cannot be cast from DBNull to other types.    at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 281
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 405 (d55b76a5)
+2024-08-14T00:30:54.7810713+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T00:30:54.7860967+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T00:30:54.7920604+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T00:30:54.7952282+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T00:30:54.7976312+05:30  [INF] Content root path: "D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T00:31:19.7753757+05:30 0HN5RP913EPSH:0000001F [INF] ================================================= (9934009c)
+2024-08-14T00:31:19.7882044+05:30 0HN5RP913EPSH:0000001F [INF] Request API Started at:8/14/2024 12:31:19 AM (16f595c9)
+2024-08-14T00:31:22.4770185+05:30 0HN5RP913EPSH:0000001F [INF] consent-requests/data (8b449d30)
+2024-08-14T00:37:13.1357369+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T00:37:13.1443000+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T00:37:13.1526104+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T00:37:13.1583011+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T00:37:13.1631189+05:30  [INF] Content root path: "D:\APIS-13082024\RCH-HIU-SERVICES-13082024\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T00:38:08.0993956+05:30 0HN5RPCHTQQ9V:00000017 [INF] ================================================= (9934009c)
+2024-08-14T00:38:08.1135068+05:30 0HN5RPCHTQQ9V:00000017 [INF] Request API Started at:8/14/2024 12:38:08 AM (11051ffc)
+2024-08-14T00:38:16.8572095+05:30 0HN5RPCHTQQ9V:00000017 [INF] consent-requests/data (8b449d30)
+2024-08-14T09:09:08.4479040+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T09:09:08.4513156+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T09:09:08.4548451+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T09:09:08.4568739+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T09:09:08.4587165+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T09:09:34.1032178+05:30 0HN5S2AJOED0C:00000013 [INF] ================================================= (9934009c)
+2024-08-14T09:09:34.1101109+05:30 0HN5S2AJOED0C:00000013 [INF] Request API Started at:14-08-2024 09:09:34 (35d559d3)
+2024-08-14T09:10:20.1971356+05:30 0HN5S2AJOED0C:00000013 [INF] consent-requests/data (8b449d30)
+2024-08-14T17:13:37.7484631+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-14T17:13:37.7539342+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-14T17:13:37.7591603+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-14T17:13:37.7622853+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-14T17:13:37.7647423+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-14T17:13:52.7837837+05:30 0HN5SAPB4FE6G:00000009 [INF] ================================================= (9934009c)
+2024-08-14T17:13:52.7949671+05:30 0HN5SAPB4FE6G:00000009 [INF] Request API Started at:14-08-2024 17:13:52 (66f6111f)
+2024-08-14T17:13:52.8004983+05:30 0HN5SAPB4FE6G:00000009 [INF] ================================================= (9934009c)
+2024-08-14T17:13:52.8028396+05:30 0HN5SAPB4FE6G:00000009 [INF] health-information/hiu/on-request call at: 14-08-2024 17:13:52 (3516f1ab)
+2024-08-14T17:13:52.8061066+05:30 0HN5SAPB4FE6G:00000009 [INF] Received JSON:  (eb5e6f7b)
+2024-08-14T17:13:53.2538182+05:30 0HN5SAPB4FE6G:00000009 [ERR] The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0. (861c358a)
+System.Text.Json.JsonException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at HIUServices.Controllers.CallbackController.HealthInformationHiuOnRequest() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 262
+2024-08-14T17:14:07.8573142+05:30 0HN5SAPB4FE6G:0000000B [INF] ================================================= (9934009c)
+2024-08-14T17:14:07.8600209+05:30 0HN5SAPB4FE6G:0000000B [INF] Request API Started at:14-08-2024 17:14:07 (fc0e2728)
+2024-08-14T17:14:07.8625868+05:30 0HN5SAPB4FE6G:0000000B [INF] ================================================= (9934009c)
+2024-08-14T17:14:07.8651110+05:30 0HN5SAPB4FE6G:0000000B [INF] health-information/hiu/on-request call at: 14-08-2024 17:14:07 (983bdac8)
+2024-08-14T17:14:07.8672256+05:30 0HN5SAPB4FE6G:0000000B [INF] Received JSON:  (eb5e6f7b)
+2024-08-14T17:14:07.9265136+05:30 0HN5SAPB4FE6G:0000000B [ERR] The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0. (861c358a)
+System.Text.Json.JsonException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at HIUServices.Controllers.CallbackController.HealthInformationHiuOnRequest() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 262
+2024-08-14T17:15:10.5221727+05:30 0HN5SAPB4FE6I:00000001 [INF] ================================================= (9934009c)
+2024-08-14T17:15:10.5287439+05:30 0HN5SAPB4FE6I:00000001 [INF] Request API Started at:14-08-2024 17:15:10 (fdb8d812)
+2024-08-14T17:15:10.5336716+05:30 0HN5SAPB4FE6I:00000001 [INF] ================================================= (9934009c)
+2024-08-14T17:15:10.5403676+05:30 0HN5SAPB4FE6I:00000001 [INF] health-information/hiu/on-request call at: 14-08-2024 17:15:10 (20896836)
+2024-08-14T17:15:10.5464559+05:30 0HN5SAPB4FE6I:00000001 [INF] Received JSON: {
+  "requestId": "07026a35-5f16-4baa-b32c-62bf6f61ba2b",
+  "timestamp": "2024-08-12T04:09:25.902Z",
+  "consent": {
+    "status": "GRANTED",
+    "consentDetail": {
+      "consentId": "b1b41ba8-9c0c-431f-8e90-025da80aea48",
+      "hip": {
+        "id": "rch_hip",
+        "name": "RCH_HIP",
+        "type": "HIP"
+      },
+      "hiu": {
+        "id": "SBX_000287_HIU"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "HealthDocumentRecord"
+      ],
+      "patient": {
+        "id": "57818821603088@sbx"
+      },
+      "purpose": {
+        "text": "Public Health",
+        "code": "PUBHLTH",
+        "refUri": "www.abdm.gov.in"
+      },
+      "createdAt": "2024-08-12T04:01:28.129Z",
+      "requester": {
+        "name": "Dr. Rupali Thakur",
+        "identifier": {
+          "value": "1001",
+          "type": "REGNO",
+          "system": "https://www.mciindia.org"
+        }
+      },
+      "permission": {
+        "accessMode": "VIEW",
+        "dateRange": {
+          "from": "2016-01-25T12:30:29.592Z",
+          "to": "2024-07-01T16:33:29.592Z"
+        },
+        "dataEraseAt": "2024-11-22T12:30:29.592Z",
+        "frequency": {
+          "unit": "HOUR",
+          "value": 1,
+          "repeats": 0
+        }
+      },
+      "lastUpdated": "2024-08-12T04:01:28.132Z",
+      "careContexts": [
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MP-116000658205-1-141888"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "CP-216000364484-0-87884"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "EC-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MM-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MA-116000658205-1-656259"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MR-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MD-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MI-116000658205-1-127460"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MA-130000000001-1-6930"
+        }
+      ],
+      "schemaVersion": "v3",
+      "consentManager": {
+        "id": "sbx"
+      }
+    },
+    "signature": "SlqsPqLCeIHNrDwsEK46N2pvDxKUOeJgGh77GFRN3w1o+m38okyjPkb6YLwXUMzCSimoY9Iqq8khXotsXfz5eJFrYzrKuFv8lSg/565586YNToW5mNREhmtVqDX+MudVABefB7kEDX3ZaTVe7VBXbsLfVje5Bpti7FYdKI34D2VKZT3ingKMhySgz1gB99HQo+yUYIbvgwn+MJs+e5VJQgVLvkkFeJ4cnpqDU++b3t/ce8IxNcXo1CoqCGJRfHNIhm+YxLRQ3+Rqfdnzfp0ii+6h4hT1rZmszFJLuEoUzz/fQ33AMXYBXsxvE0SELRwmkWa+l943De+4PQC0y3Gbfw=="
+  },
+  "error": null,
+  "response": null,
+  "resp": {
+    "requestId": "cf218a06-11ae-4764-b817-ac957488cdba"
+  }
+}
+ (4cbfa0e5)
+2024-08-14T17:15:10.5598819+05:30 0HN5SAPB4FE6I:00000001 [INF] Deserialized and Serialized JSON: {
+  "requestId": "07026a35-5f16-4baa-b32c-62bf6f61ba2b",
+  "timestamp": "2024-08-12T04:09:25.902Z",
+  "hiRequest": null,
+  "error": null,
+  "resp": {
+    "requestId": "cf218a06-11ae-4764-b817-ac957488cdba"
+  }
+} (397bdc41)
+2024-08-14T17:15:12.2300693+05:30 0HN5SAPB4FE6I:00000001 [INF] Database insertion result: -1 (e32e96b1)
+2024-08-14T17:15:31.2164092+05:30 0HN5SAPB4FE6G:0000000D [INF] ================================================= (9934009c)
+2024-08-14T17:15:31.2188848+05:30 0HN5SAPB4FE6G:0000000D [INF] Request API Started at:14-08-2024 17:15:31 (70395149)
+2024-08-14T17:16:05.2958583+05:30 0HN5SAPB4FE6G:0000000D [INF] ================================================= (9934009c)
+2024-08-14T17:16:05.2983942+05:30 0HN5SAPB4FE6G:0000000D [INF] consents/on-fetch call at: 14-08-2024 17:16:05 (accd82e3)
+2024-08-14T17:16:05.3451243+05:30 0HN5SAPB4FE6G:0000000D [INF] Received JSON:  (eb5e6f7b)
+2024-08-14T17:16:06.1087385+05:30 0HN5SAPB4FE6G:0000000D [ERR] The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0. (861c358a)
+System.Text.Json.JsonException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at HIUServices.Controllers.CallbackController.ConsentDetails() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 209
+2024-08-14T17:16:15.6424205+05:30 0HN5SAPB4FE6I:00000002 [INF] ================================================= (9934009c)
+2024-08-14T17:16:15.6462767+05:30 0HN5SAPB4FE6I:00000002 [INF] Request API Started at:14-08-2024 17:16:15 (03ff48be)
+2024-08-14T17:16:18.1413070+05:30 0HN5SAPB4FE6I:00000002 [INF] ================================================= (9934009c)
+2024-08-14T17:16:18.4714882+05:30 0HN5SAPB4FE6I:00000002 [INF] consents/on-fetch call at: 14-08-2024 17:16:18 (1d7d63e5)
+2024-08-14T17:16:20.1249499+05:30 0HN5SAPB4FE6I:00000002 [INF] Received JSON: {
+  "requestId": "07026a35-5f16-4baa-b32c-62bf6f61ba2b",
+  "timestamp": "2024-08-12T04:09:25.902Z",
+  "consent": {
+    "status": "GRANTED",
+    "consentDetail": {
+      "consentId": "b1b41ba8-9c0c-431f-8e90-025da80aea48",
+      "hip": {
+        "id": "rch_hip",
+        "name": "RCH_HIP",
+        "type": "HIP"
+      },
+      "hiu": {
+        "id": "SBX_000287_HIU"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "HealthDocumentRecord"
+      ],
+      "patient": {
+        "id": "57818821603088@sbx"
+      },
+      "purpose": {
+        "text": "Public Health",
+        "code": "PUBHLTH",
+        "refUri": "www.abdm.gov.in"
+      },
+      "createdAt": "2024-08-12T04:01:28.129Z",
+      "requester": {
+        "name": "Dr. Rupali Thakur",
+        "identifier": {
+          "value": "1001",
+          "type": "REGNO",
+          "system": "https://www.mciindia.org"
+        }
+      },
+      "permission": {
+        "accessMode": "VIEW",
+        "dateRange": {
+          "from": "2016-01-25T12:30:29.592Z",
+          "to": "2024-07-01T16:33:29.592Z"
+        },
+        "dataEraseAt": "2024-11-22T12:30:29.592Z",
+        "frequency": {
+          "unit": "HOUR",
+          "value": 1,
+          "repeats": 0
+        }
+      },
+      "lastUpdated": "2024-08-12T04:01:28.132Z",
+      "careContexts": [
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MP-116000658205-1-141888"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "CP-216000364484-0-87884"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "EC-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MM-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MA-116000658205-1-656259"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MR-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MD-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MI-116000658205-1-127460"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MA-130000000001-1-6930"
+        }
+      ],
+      "schemaVersion": "v3",
+      "consentManager": {
+        "id": "sbx"
+      }
+    },
+    "signature": "SlqsPqLCeIHNrDwsEK46N2pvDxKUOeJgGh77GFRN3w1o+m38okyjPkb6YLwXUMzCSimoY9Iqq8khXotsXfz5eJFrYzrKuFv8lSg/565586YNToW5mNREhmtVqDX+MudVABefB7kEDX3ZaTVe7VBXbsLfVje5Bpti7FYdKI34D2VKZT3ingKMhySgz1gB99HQo+yUYIbvgwn+MJs+e5VJQgVLvkkFeJ4cnpqDU++b3t/ce8IxNcXo1CoqCGJRfHNIhm+YxLRQ3+Rqfdnzfp0ii+6h4hT1rZmszFJLuEoUzz/fQ33AMXYBXsxvE0SELRwmkWa+l943De+4PQC0y3Gbfw=="
+  },
+  "error": null,
+  "response": null,
+  "resp": {
+    "requestId": "cf218a06-11ae-4764-b817-ac957488cdba"
+  }
+}
+ (4cbfa0e5)
+2024-08-14T17:16:52.9643961+05:30 0HN5SAPB4FE6I:00000002 [INF] Database update result: -1 (2c0f0805)

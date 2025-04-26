@@ -1,0 +1,8 @@
+2024-08-23T16:22:16.4261000+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-23T16:22:16.4293230+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-23T16:22:16.4325063+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-23T16:22:16.4342301+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-23T16:22:16.4355671+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-23T16:22:42.8893564+05:30 0HN63C6JLN2VE:0000000F [INF] ================================================= (9934009c)
+2024-08-23T16:22:42.8964411+05:30 0HN63C6JLN2VE:0000000F [INF] Request API Started at:23-08-2024 16:22:42 (98801c5e)
+2024-08-23T16:22:45.6247723+05:30 0HN63C6JLN2VE:0000000F [INF] health-information/data (1c8c6c2d)

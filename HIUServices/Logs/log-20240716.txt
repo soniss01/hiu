@@ -1,0 +1,425 @@
+2024-07-16T12:05:36.5459854+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T12:05:36.5575120+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T12:05:36.5596042+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T12:05:58.9236267+05:30 40000032-000a-fe00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:05:58.9408338+05:30 40000032-000a-fe00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:05:58 (5b0adc86)
+2024-07-16T12:06:05.9412574+05:30 40000032-000a-fe00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:06:33.1945463+05:30 40000032-000a-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("46"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL insert_hiu_consent_request(
+            @anm_id,
+            @anm_name,
+            @state_code,
+            @patient_id,
+            @patient_name,
+            @hiu,
+            @consent_purpose,
+            @hi_types,
+            @requester_id,
+            @permission_date_from,
+            @permission_date_to,
+            @data_erase_at,
+            @resp_request_id,
+            @source_id
+           )" (627a98df)
+2024-07-16T12:06:33.6640608+05:30 40000032-000a-fe00-b63f-84710c7967bb [ERR] Error:Parameter '@anm_id' cannot be null, DBNull.Value should be used instead.    at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlParameter.BindCore(Nullable`1 formatPreference, Boolean allowNullReference)
+   at Npgsql.NpgsqlParameter.Bind(DataFormat& format, Size& size, Nullable`1 requiredFormat)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 143
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (fba850ec)
+2024-07-16T12:07:11.7104423+05:30 40000034-000a-fe00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:07:11.7128797+05:30 40000034-000a-fe00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:07:11 (6fe96204)
+2024-07-16T12:07:13.6705666+05:30 40000034-000a-fe00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:07:23.0057451+05:30 40000034-000a-fe00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("1"ms) [Parameters=["@anm_id='?' (Size = 23) (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL insert_hiu_consent_request(
+            @anm_id,
+            @anm_name,
+            @state_code,
+            @patient_id,
+            @patient_name,
+            @hiu,
+            @consent_purpose,
+            @hi_types,
+            @requester_id,
+            @permission_date_from,
+            @permission_date_to,
+            @data_erase_at,
+            @resp_request_id,
+            @source_id
+           )" (627a98df)
+2024-07-16T12:07:32.4327536+05:30 40000034-000a-fe00-b63f-84710c7967bb [ERR] Error:Parameter '@anm_id' cannot be null, DBNull.Value should be used instead.    at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlParameter.BindCore(Nullable`1 formatPreference, Boolean allowNullReference)
+   at Npgsql.NpgsqlParameter.Bind(DataFormat& format, Size& size, Nullable`1 requiredFormat)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 143
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (fba850ec)
+2024-07-16T12:11:53.6555215+05:30 4000004e-0006-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:11:53.6582688+05:30 4000004e-0006-fd00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:11:53 (6b18a1c7)
+2024-07-16T12:11:56.2026041+05:30 4000004e-0006-fd00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:12:59.1648878+05:30 4000004e-0006-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("2"ms) [Parameters=["@anm_id='?' (Size = 23) (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL insert_hiu_consent_request(
+            @anm_id,
+            @anm_name,
+            @state_code,
+            @patient_id,
+            @patient_name,
+            @hiu,
+            @consent_purpose,
+            @hi_types,
+            @requester_id,
+            @permission_date_from,
+            @permission_date_to,
+            @data_erase_at,
+            @resp_request_id,
+            @source_id
+           )" (627a98df)
+2024-07-16T12:12:59.4106841+05:30 4000004e-0006-fd00-b63f-84710c7967bb [ERR] Error:Parameter '@anm_id' cannot be null, DBNull.Value should be used instead.    at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlParameter.BindCore(Nullable`1 formatPreference, Boolean allowNullReference)
+   at Npgsql.NpgsqlParameter.Bind(DataFormat& format, Size& size, Nullable`1 requiredFormat)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 143
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (fba850ec)
+2024-07-16T12:20:34.4732780+05:30 40000056-000a-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:20:34.4754769+05:30 40000056-000a-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:20:34 (bd2c731c)
+2024-07-16T12:20:37.1941006+05:30 40000056-000a-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:20:41.8732053+05:30 40000056-000a-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("5"ms) [Parameters=["@anm_id='?' (Size = 23) (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL insert_hiu_consent_request(
+            @anm_id,
+            @anm_name,
+            @state_code,
+            @patient_id,
+            @patient_name,
+            @hiu,
+            @consent_purpose,
+            @hi_types,
+            @requester_id,
+            @permission_date_from,
+            @permission_date_to,
+            @data_erase_at,
+            @resp_request_id,
+            @source_id
+           )" (627a98df)
+2024-07-16T12:20:42.0177385+05:30 40000056-000a-ff00-b63f-84710c7967bb [ERR] Error:Parameter '@anm_id' cannot be null, DBNull.Value should be used instead.    at Npgsql.ThrowHelper.ThrowInvalidOperationException(String message)
+   at Npgsql.NpgsqlParameter.BindCore(Nullable`1 formatPreference, Boolean allowNullReference)
+   at Npgsql.NpgsqlParameter.Bind(DataFormat& format, Size& size, Nullable`1 requiredFormat)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests)
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) (5e60da6b)
+2024-07-16T12:21:43.7764353+05:30 400000b4-000b-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:21:43.7793912+05:30 400000b4-000b-fd00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:21:43 (b0730ebd)
+2024-07-16T12:21:46.7536545+05:30 400000b4-000b-fd00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:23:23.6543696+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T12:23:23.7016412+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T12:23:23.7061959+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T12:23:38.7660928+05:30 40000037-000c-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:23:38.7756964+05:30 40000037-000c-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:23:38 (a126cedf)
+2024-07-16T12:23:41.0709038+05:30 40000037-000c-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:24:05.1643970+05:30 40000037-000c-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("106"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL insert_hiu_consent_request(
+            @anm_id,
+            @anm_name,
+            @state_code,
+            @patient_id,
+            @patient_name,
+            @hiu,
+            @consent_purpose,
+            @hi_types,
+            @requester_id,
+            @permission_date_from,
+            @permission_date_to,
+            @data_erase_at,
+            @resp_request_id,
+            @source_id
+           )" (627a98df)
+2024-07-16T12:24:05.4706191+05:30 40000037-000c-ff00-b63f-84710c7967bb [ERR] Error:42883: procedure insert_hiu_consent_request(integer, text, integer, text, text, text, text, text, text, timestamp with time zone, timestamp with time zone, timestamp with time zone, text, integer) does not exist
+
+POSITION: 6    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 143
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (64e75683)
+2024-07-16T12:36:10.4061723+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T12:36:10.4107324+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T12:36:10.4127483+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T12:36:30.4940356+05:30 4000000b-0002-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:36:30.5081252+05:30 4000000b-0002-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:36:30 (c747d9bf)
+2024-07-16T12:36:36.5525466+05:30 4000000b-0002-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:36:40.6451954+05:30 4000000b-0002-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("61"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.insert_hiu_consent_request(
+            @anm_id,
+            @anm_name,
+            @state_code,
+            @patient_id,
+            @patient_name,
+            @hiu,
+            @consent_purpose,
+            @hi_types,
+            @requester_id,
+            @permission_date_from,
+            @permission_date_to,
+            @data_erase_at,
+            @resp_request_id,
+            @source_id
+           )" (627a98df)
+2024-07-16T12:36:40.9162705+05:30 4000000b-0002-ff00-b63f-84710c7967bb [ERR] Error:42883: procedure public.insert_hiu_consent_request(integer, text, integer, text, text, text, text, text, text, timestamp with time zone, timestamp with time zone, timestamp with time zone, text, integer) does not exist
+
+POSITION: 6    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 143
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (dc76f072)
+2024-07-16T12:42:58.3279565+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T12:42:58.3324075+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T12:42:58.3344747+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T12:43:20.1900390+05:30 4000003b-000c-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T12:43:20.2124487+05:30 4000003b-000c-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 12:43:20 (8bd1e09a)
+2024-07-16T12:43:29.5730221+05:30 4000003b-000c-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T12:43:36.6620342+05:30 4000003b-000c-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("73"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?', @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.insert_hiu_consent_request(
+                @anm_id,
+                @anm_name,
+                @state_code,
+                @patient_id,
+                @patient_name,
+                @hiu,
+                @consent_purpose,
+                @hi_types,
+                @requester_id,
+                @permission_date_from,
+                @permission_date_to,
+                @data_erase_at,
+                @resp_request_id,
+                @source_id
+            )" (627a98df)
+2024-07-16T14:09:07.5952638+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T14:09:07.6166411+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T14:09:07.6190944+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T14:09:37.4602569+05:30 4000008a-000b-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:09:37.4895669+05:30 4000008a-000b-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:09:37 (b29cbe91)
+2024-07-16T14:11:00.0001269+05:30 40000066-000a-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:11:00.0078558+05:30 40000066-000a-fd00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:11:00 (979acb66)
+2024-07-16T14:11:02.9310280+05:30 40000066-000a-fd00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T14:11:18.3358917+05:30 40000066-000a-fd00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("64"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?' (DbType = Int32), @permission_date_from='?' (DbType = DateTime2), @permission_date_to='?' (DbType = DateTime2), @data_erase_at='?' (DbType = DateTime2), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_insertconsentrecord(@anm_id::integer, @anm_name::character varying, @state_code::integer, @patient_id::character varying, @patient_name::character varying, @hiu::character varying, @consent_purpose::character varying, @hi_types::character varying, @requester_id::integer, @permission_date_from::timestamp, @permission_date_to::timestamp, @data_erase_at::timestamp, @resp_request_id::character varying, @source_id::integer)" (627a98df)
+2024-07-16T14:13:47.0440808+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T14:13:47.0489054+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T14:13:47.0508692+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T14:13:54.2178510+05:30 40000065-000a-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:13:54.2575509+05:30 40000065-000a-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:13:54 (96c580a7)
+2024-07-16T14:13:58.1212486+05:30 40000065-000a-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T14:14:03.7003700+05:30 40000065-000a-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("27"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?' (DbType = Int32), @permission_date_from='?' (DbType = DateTime2), @permission_date_to='?' (DbType = DateTime2), @data_erase_at='?' (DbType = DateTime2), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_insertconsentrecord(@anm_id::integer, @anm_name::character varying, @state_code::integer, @patient_id::character varying, @patient_name::character varying, @hiu::character varying, @consent_purpose::character varying, @hi_types::character varying, @requester_id::integer, @permission_date_from::timestamp, @permission_date_to::timestamp, @data_erase_at::timestamp, @resp_request_id::character varying, @source_id::integer)" (627a98df)
+2024-07-16T14:17:20.3187086+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T14:17:20.3228529+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T14:17:20.3267710+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T14:17:58.4888960+05:30 40000068-000a-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:17:58.5077282+05:30 40000068-000a-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:17:58 (e4ab3cca)
+2024-07-16T14:18:22.0944218+05:30 40000068-000a-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T14:18:27.8929688+05:30 40000068-000a-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("71"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?' (DbType = Int32), @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_insertconsentrecord(@anm_id::integer, @anm_name::character varying, @state_code::integer, @patient_id::character varying, @patient_name::character varying, @hiu::character varying, @consent_purpose::character varying, @hi_types::character varying, @requester_id::integer, @permission_date_from::timestamp with time zone, @permission_date_to::timestamp with time zone, @data_erase_at::timestamp with time zone, @resp_request_id::character varying, @source_id::integer)" (627a98df)
+2024-07-16T14:22:36.2645378+05:30 40000068-000a-ff00-b63f-84710c7967bb [ERR] Error:42702: column reference "resp_request_id" is ambiguous
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.    at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 145
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (1b216ddd)
+2024-07-16T14:22:39.5428709+05:30 4000006a-000a-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:22:39.5452005+05:30 4000006a-000a-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:22:39 (e2926713)
+2024-07-16T14:22:41.3585314+05:30 4000006a-000a-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T14:22:42.4525570+05:30 4000006a-000a-ff00-b63f-84710c7967bb [ERR] Failed executing DbCommand ("10"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?' (DbType = Int32), @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_insertconsentrecord(@anm_id::integer, @anm_name::character varying, @state_code::integer, @patient_id::character varying, @patient_name::character varying, @hiu::character varying, @consent_purpose::character varying, @hi_types::character varying, @requester_id::integer, @permission_date_from::timestamp with time zone, @permission_date_to::timestamp with time zone, @data_erase_at::timestamp with time zone, @resp_request_id::character varying, @source_id::integer)" (627a98df)
+2024-07-16T14:22:54.7287651+05:30 4000006a-000a-ff00-b63f-84710c7967bb [ERR] Error:Exception while writing to stream System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.SendAsyncForNetworkStream(Socket socket, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.SendAsyncForNetworkStream(ReadOnlyMemory`1 buffer, SocketFlags socketFlags, CancellationToken cancellationToken)
+   at System.Net.Sockets.NetworkStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlWriteBuffer.Flush(Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Npgsql.Internal.NpgsqlWriteBuffer.Flush(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Flush(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.<Write>g__WriteExecute|100_0(NpgsqlConnector connector, Boolean async, Boolean flush, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Npgsql.NpgsqlCommand.<Write>g__WriteExecute|100_0(NpgsqlConnector connector, Boolean async, Boolean flush, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.Write(NpgsqlConnector connector, Boolean async, Boolean flush, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Npgsql.NpgsqlCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, Object[] parameters)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 145
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests)
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto)
+   at lambda_method9(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(Action action, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(Task`1 task, TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult()
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.ExecutionContextCallback(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Runtime.CompilerServices.TaskAwaiter.<>c.<OutputWaitEtwEvents>b__12_0(Action innerContinuation, Task innerTask)
+   at System.Threading.Tasks.AwaitTaskContinuation.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at Npgsql.Internal.NpgsqlWriteBuffer.Flush(Boolean async, CancellationToken cancellationToken)   at Npgsql.Internal.NpgsqlWriteBuffer.Flush(Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.<Write>g__WriteExecute|100_0(NpgsqlConnector connector, Boolean async, Boolean flush, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQueryAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.ExecuteSqlRawAsync(DatabaseFacade databaseFacade, String sql, IEnumerable`1 parameters, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.InsertConsentRequest(ConsentRequestsInsert consentRequests) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 145
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 232 (f77ae985)
+2024-07-16T14:23:09.2748778+05:30 4000000c-000e-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:23:09.2789883+05:30 4000000c-000e-fd00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:23:09 (ce81d1ad)
+2024-07-16T14:23:11.6137608+05:30 4000000c-000e-fd00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T14:23:15.7382278+05:30 4000000c-000e-fd00-b63f-84710c7967bb [INF] Executed DbCommand ("67"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?' (DbType = Int32), @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_insertconsentrecord(@anm_id::integer, @anm_name::character varying, @state_code::integer, @patient_id::character varying, @patient_name::character varying, @hiu::character varying, @consent_purpose::character varying, @hi_types::character varying, @requester_id::integer, @permission_date_from::timestamp with time zone, @permission_date_to::timestamp with time zone, @data_erase_at::timestamp with time zone, @resp_request_id::character varying, @source_id::integer)" (0723d8ff)
+2024-07-16T14:23:48.2172334+05:30 4000000c-000e-fd00-b63f-84710c7967bb [ERR] Error:A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (dev.abdm.gov.in:443) System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at HIUServices.Repostitories.Requests.AccessTokenService.GetAccessToken() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\AccessTokenService.cs:line 35
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequests(ConsentRequest obj) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 173
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 234 (0e0765e5)
+2024-07-16T14:23:56.6265099+05:30 40000007-0008-f500-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T14:23:56.6300256+05:30 40000007-0008-f500-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 14:23:56 (413331b2)
+2024-07-16T14:23:58.6389116+05:30 40000007-0008-f500-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T14:24:11.3161424+05:30 40000007-0008-f500-b63f-84710c7967bb [INF] Executed DbCommand ("36"ms) [Parameters=["@anm_id='?' (DbType = Int32), @anm_name='?', @state_code='?' (DbType = Int32), @patient_id='?', @patient_name='?', @hiu='?', @consent_purpose='?', @hi_types='?', @requester_id='?' (DbType = Int32), @permission_date_from='?' (DbType = DateTime), @permission_date_to='?' (DbType = DateTime), @data_erase_at='?' (DbType = DateTime), @resp_request_id='?', @source_id='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""CALL public.sp_hiu_insertconsentrecord(@anm_id::integer, @anm_name::character varying, @state_code::integer, @patient_id::character varying, @patient_name::character varying, @hiu::character varying, @consent_purpose::character varying, @hi_types::character varying, @requester_id::integer, @permission_date_from::timestamp with time zone, @permission_date_to::timestamp with time zone, @data_erase_at::timestamp with time zone, @resp_request_id::character varying, @source_id::integer)" (0723d8ff)
+2024-07-16T16:53:41.9442796+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-16T16:53:41.9559282+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-16T16:53:41.9581423+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-07-16T16:54:38.7907500+05:30 4000007d-0009-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T16:54:38.8041463+05:30 4000007d-0009-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 16:54:38 (6d4e5a0a)
+2024-07-16T16:54:38.8212580+05:30 4000007d-0009-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T16:54:38.8231687+05:30 4000007d-0009-ff00-b63f-84710c7967bb [INF] consent-requests/on-init call at:16-07-2024 16:54:38 (fcd974d3)
+2024-07-16T16:54:38.8246376+05:30 4000007d-0009-ff00-b63f-84710c7967bb [INF]  (00000000)
+2024-07-16T16:54:39.4372107+05:30 4000007d-0009-ff00-b63f-84710c7967bb [ERR] The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0. (861c358a)
+System.Text.Json.JsonException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at HIUServices.Controllers.CallbackController.ConsentRequestsOnInit() in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\CallbackController.cs:line 85
+2024-07-16T16:55:14.4726816+05:30 40000015-0006-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T16:55:14.4750830+05:30 40000015-0006-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 16:55:14 (3425103f)
+2024-07-16T16:55:17.0054979+05:30 40000015-0006-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T16:55:32.3692166+05:30 40000015-0006-ff00-b63f-84710c7967bb [ERR] Error:The input string '1e5917f5-d195-4925-be44-207c7fc9e4f6' was not in a correct format.    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToInt32(String value)
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 213 (8deaf953)
+2024-07-16T16:55:37.6617795+05:30 40000051-0000-fd00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T16:55:37.6644851+05:30 40000051-0000-fd00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 16:55:37 (ed1eed84)
+2024-07-16T16:55:38.9135974+05:30 40000051-0000-fd00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T16:56:30.7027011+05:30 40000051-0000-fd00-b63f-84710c7967bb [ERR] Error:The input string '1e5917f5-d195-4925-be44-207c7fc9e4f6' was not in a correct format.    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToInt32(String value)
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 213 (8deaf953)
+2024-07-16T16:57:45.0664736+05:30 40000094-000b-ff00-b63f-84710c7967bb [INF] ================================================= (9934009c)
+2024-07-16T16:57:45.0695485+05:30 40000094-000b-ff00-b63f-84710c7967bb [INF] Request API Started at:16-07-2024 16:57:45 (da413ec9)
+2024-07-16T16:57:47.3543719+05:30 40000094-000b-ff00-b63f-84710c7967bb [INF] consent-requests/init (54f46c3d)
+2024-07-16T16:58:32.1410057+05:30 40000094-000b-ff00-b63f-84710c7967bb [ERR] Error:The input string 'string' was not in a correct format.    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Convert.ToInt32(String value)
+   at HIUServices.Controllers.ResuestController.ConsentRequests(ConsentRequestDto consentRequestDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\ResuestController.cs:line 213 (b512a47c)

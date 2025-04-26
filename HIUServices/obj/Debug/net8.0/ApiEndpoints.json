@@ -1,0 +1,221 @@
+[
+  {
+    "ContainingType": "HIUServices.Controllers.CallbackController",
+    "Method": "ConsentRequestsOnInit",
+    "RelativePath": "api/callback/v0.5/consent-requests/on-init",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Callback APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.CallbackController",
+    "Method": "ConsentsHiuNotify",
+    "RelativePath": "api/callback/v0.5/consents/hiu/notify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Callback APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.CallbackController",
+    "Method": "ConsentDetails",
+    "RelativePath": "api/callback/v0.5/consents/on-fetch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Callback APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.CallbackController",
+    "Method": "HealthInformationDataTransfer",
+    "RelativePath": "api/callback/v0.5/health-information/data/transfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Callback APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.CallbackController",
+    "Method": "HealthInformationHiuOnRequest",
+    "RelativePath": "api/callback/v0.5/health-information/hiu/on-request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Callback APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.CallbackController",
+    "Method": "PatientOnFind",
+    "RelativePath": "api/callback/v0.5/patients/on-find",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "Callback APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.MasterController",
+    "Method": "GetHiTypes",
+    "RelativePath": "api/master/v1/get/hi-types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HIUServices.Entities.Requests.Masters.PurposeOfUse, HIUServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Master APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.MasterController",
+    "Method": "GetPurposeOfUse",
+    "RelativePath": "api/master/v1/get/purpose-of-use",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HIUServices.Entities.Requests.Masters.PurposeOfUse, HIUServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Master APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.RequestController",
+    "Method": "ConsentRequestsData",
+    "RelativePath": "api/request/v1/consent-requests/data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "consentRequestDataDto",
+        "Type": "HIUServices.Entities.Requests.Consents.ConsentRequestsDataDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Request APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.RequestController",
+    "Method": "ConsentRequests",
+    "RelativePath": "api/request/v1/consent-requests/init",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "consentRequestDto",
+        "Type": "HIUServices.Entities.Requests.Consents.ConsentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Request APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.RequestController",
+    "Method": "HealthInformationData",
+    "RelativePath": "api/request/v1/health-information/data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "HIUServices.Entities.Requests.HealthInformationDataReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Request APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.RequestController",
+    "Method": "HealthInformationRequest",
+    "RelativePath": "api/request/v1/health-information/request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestObj",
+        "Type": "HIUServices.Entities.Requests.HealthInformationCmRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Request APIs"
+    ]
+  },
+  {
+    "ContainingType": "HIUServices.Controllers.RequestController",
+    "Method": "PatientsFind",
+    "RelativePath": "api/request/v1/patients/find",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reqObj",
+        "Type": "HIUServices.Entities.Requests.Patients.PatientRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "Request APIs"
+    ]
+  }
+]

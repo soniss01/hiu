@@ -1,0 +1,263 @@
+2024-08-16T09:48:58.0641072+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-16T09:48:58.0678995+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-16T09:48:58.0714640+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-16T09:48:58.0738539+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-16T09:48:58.0757754+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-16T09:50:51.4953271+05:30 0HN5TLA6DOSEV:00000001 [INF] ================================================= (9934009c)
+2024-08-16T09:50:51.5062533+05:30 0HN5TLA6DOSEV:00000001 [INF] Request API Started at:16-08-2024 09:50:51 (f2364f02)
+2024-08-16T09:50:55.2309634+05:30 0HN5TLA6DOSEV:00000001 [INF] ================================================= (9934009c)
+2024-08-16T09:50:55.6417624+05:30 0HN5TLA6DOSEV:00000001 [INF] consents/on-fetch call at: 16-08-2024 09:50:55 (226fde0b)
+2024-08-16T09:50:57.5914375+05:30 0HN5TLA6DOSEV:00000001 [INF] Received JSON: {
+  "requestId": "07026a35-5f16-4baa-b32c-62bf6f61ba2b",
+  "timestamp": "2024-08-12T04:09:25.902Z",
+  "consent": {
+    "status": "GRANTED",
+    "consentDetail": {
+      "consentId": "1cfc7c90-bc81-4fde-bfb1-0225471af2d0",
+      "hip": {
+        "id": "rch_hip",
+        "name": "RCH_HIP",
+        "type": "HIP"
+      },
+      "hiu": {
+        "id": "SBX_000287_HIU"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "HealthDocumentRecord"
+      ],
+      "patient": {
+        "id": "57818821603088@sbx"
+      },
+      "purpose": {
+        "text": "Public Health",
+        "code": "PUBHLTH",
+        "refUri": "www.abdm.gov.in"
+      },
+      "createdAt": "2024-08-12T04:01:28.129Z",
+      "requester": {
+        "name": "Dr. Rupali Thakur",
+        "identifier": {
+          "value": "1001",
+          "type": "REGNO",
+          "system": "https://www.mciindia.org"
+        }
+      },
+      "permission": {
+        "accessMode": "VIEW",
+        "dateRange": {
+          "from": "2016-01-25T12:30:29.592Z",
+          "to": "2024-07-01T16:33:29.592Z"
+        },
+        "dataEraseAt": "2024-11-22T12:30:29.592Z",
+        "frequency": {
+          "unit": "HOUR",
+          "value": 1,
+          "repeats": 0
+        }
+      },
+      "lastUpdated": "2024-08-12T04:01:28.132Z",
+      "careContexts": [
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MP-116000658205-1-141888"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "CP-216000364484-0-87884"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "EC-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MM-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MA-116000658205-1-656259"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MR-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MD-116000658205-1-000"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MI-116000658205-1-127460"
+        },
+        {
+          "patientReference": "116000658205",
+          "careContextReference": "MA-130000000001-1-6930"
+        }
+      ],
+      "schemaVersion": "v3",
+      "consentManager": {
+        "id": "sbx"
+      }
+    },
+    "signature": "SlqsPqLCeIHNrDwsEK46N2pvDxKUOeJgGh77GFRN3w1o+m38okyjPkb6YLwXUMzCSimoY9Iqq8khXotsXfz5eJFrYzrKuFv8lSg/565586YNToW5mNREhmtVqDX+MudVABefB7kEDX3ZaTVe7VBXbsLfVje5Bpti7FYdKI34D2VKZT3ingKMhySgz1gB99HQo+yUYIbvgwn+MJs+e5VJQgVLvkkFeJ4cnpqDU++b3t/ce8IxNcXo1CoqCGJRfHNIhm+YxLRQ3+Rqfdnzfp0ii+6h4hT1rZmszFJLuEoUzz/fQ33AMXYBXsxvE0SELRwmkWa+l943De+4PQC0y3Gbfw=="
+  },
+  "error": null,
+  "response": null,
+  "resp": {
+    "requestId": "b5236e48-07e6-46ae-8303-6532f75a7dad"
+  }
+}
+ (0405ed0d)
+2024-08-16T09:52:03.7325675+05:30 0HN5TLA6DOSEV:00000001 [INF] Database update result: -1 (2c0f0805)
+2024-08-16T16:35:33.2884844+05:30 0HN5TLA6DOSF0:00000001 [INF] ================================================= (9934009c)
+2024-08-16T16:35:33.2910827+05:30 0HN5TLA6DOSF0:00000001 [INF] Request API Started at:16-08-2024 16:35:33 (29049bb9)
+2024-08-16T16:35:38.2758183+05:30 0HN5TLA6DOSF0:00000001 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:35:55.7911894+05:30 0HN5TLA6DOSF0:00000001 [ERR] An error occurred using the connection to database '"hiu_stag"' on server '"tcp://10.194.162.47:5432"'. (5fc3407c)
+2024-08-16T16:35:56.2639809+05:30 0HN5TLA6DOSF0:00000001 [ERR] Error:An exception has been raised that is likely due to a transient failure. Npgsql.NpgsqlException (0x80004005): Failed to connect to 10.194.162.47:5432
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto)
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) (c9b70e1a)
+2024-08-16T16:35:58.5376791+05:30 0HN5TLA6DOSF0:0000000B [INF] ================================================= (9934009c)
+2024-08-16T16:35:58.5406731+05:30 0HN5TLA6DOSF0:0000000B [INF] Request API Started at:16-08-2024 16:35:58 (258c8df9)
+2024-08-16T16:36:07.5769748+05:30 0HN5TLA6DOSF0:0000000B [INF] consent-requests/data (8b449d30)
+2024-08-16T16:36:24.5270328+05:30 0HN5TLA6DOSF0:0000000B [ERR] An error occurred using the connection to database '"hiu_stag"' on server '"tcp://10.194.162.47:5432"'. (5fc3407c)
+2024-08-16T16:36:28.9530630+05:30 0HN5TLA6DOSF0:0000000B [ERR] Error:An exception has been raised that is likely due to a transient failure. Npgsql.NpgsqlException (0x80004005): Failed to connect to 10.194.162.47:5432
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto)
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) (c9b70e1a)
+2024-08-16T16:36:40.2941523+05:30 0HN5TLA6DOSF2:00000001 [INF] ================================================= (9934009c)
+2024-08-16T16:36:40.2977026+05:30 0HN5TLA6DOSF2:00000001 [INF] Request API Started at:16-08-2024 16:36:40 (19357a11)
+2024-08-16T16:36:43.4397283+05:30 0HN5TLA6DOSF2:00000001 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:37:00.1359368+05:30 0HN5TLA6DOSF2:00000001 [ERR] An error occurred using the connection to database '"hiu_stag"' on server '"tcp://10.194.162.47:5432"'. (5fc3407c)
+2024-08-16T16:37:09.9883511+05:30 0HN5TLA6DOSF2:00000001 [ERR] Error:An exception has been raised that is likely due to a transient failure. Npgsql.NpgsqlException (0x80004005): Failed to connect to 10.194.162.47:5432
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto)
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) (c9b70e1a)
+2024-08-16T16:37:12.8111232+05:30 0HN5TLA6DOSF2:00000003 [INF] ================================================= (9934009c)
+2024-08-16T16:37:12.8137818+05:30 0HN5TLA6DOSF2:00000003 [INF] Request API Started at:16-08-2024 16:37:12 (67107b9d)
+2024-08-16T16:37:14.1728153+05:30 0HN5TLA6DOSF2:00000003 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:37:25.3939982+05:30 0HN5TLA6DOSF2:00000003 [ERR] Error:Field not found in row: requested_hi_types    at Npgsql.ThrowHelper.ThrowIndexOutOfRangeException(String message)
+   at Npgsql.BackendMessages.RowDescriptionMessage.GetFieldIndex(String name)
+   at Npgsql.NpgsqlDataReader.GetOrdinal(String name)
+   at Npgsql.NpgsqlDataReader.get_Item(String name)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto)
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) (e89d8e21)
+2024-08-16T16:37:28.6345214+05:30 0HN5TLA6DOSF2:00000005 [INF] ================================================= (9934009c)
+2024-08-16T16:37:28.6373248+05:30 0HN5TLA6DOSF2:00000005 [INF] Request API Started at:16-08-2024 16:37:28 (1022d823)
+2024-08-16T16:37:30.1934069+05:30 0HN5TLA6DOSF2:00000005 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:41:25.5351661+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-16T16:41:25.5396521+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-16T16:41:25.5433928+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-16T16:41:25.5460839+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-16T16:41:25.5478123+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-16T16:41:36.1819793+05:30 0HN5TSGLNPCRQ:00000009 [INF] ================================================= (9934009c)
+2024-08-16T16:41:36.1945288+05:30 0HN5TSGLNPCRQ:00000009 [INF] Request API Started at:16-08-2024 16:41:36 (79895319)
+2024-08-16T16:41:38.6142528+05:30 0HN5TSGLNPCRQ:00000009 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:41:51.4981880+05:30 0HN5TSGLNPCRQ:00000009 [ERR] Error:Field not found in row: requested_hi_types    at Npgsql.ThrowHelper.ThrowIndexOutOfRangeException(String message)
+   at Npgsql.BackendMessages.RowDescriptionMessage.GetFieldIndex(String name)
+   at Npgsql.NpgsqlDataReader.GetOrdinal(String name)
+   at Npgsql.NpgsqlDataReader.get_Item(String name)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 333
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 405 (fe822d0c)
+2024-08-16T16:45:19.7064390+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-16T16:45:19.7096977+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-16T16:45:19.7132694+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-16T16:45:19.7152811+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-16T16:45:19.7171190+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-16T16:45:28.6338907+05:30 0HN5TSIRE3VVD:00000009 [INF] ================================================= (9934009c)
+2024-08-16T16:45:28.6472818+05:30 0HN5TSIRE3VVD:00000009 [INF] Request API Started at:16-08-2024 16:45:28 (83a420a1)
+2024-08-16T16:45:30.6077783+05:30 0HN5TSIRE3VVD:00000009 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:45:45.8327685+05:30 0HN5TSIRE3VVD:00000009 [ERR] Error:Field not found in row: requested_hi_types    at Npgsql.ThrowHelper.ThrowIndexOutOfRangeException(String message)
+   at Npgsql.BackendMessages.RowDescriptionMessage.GetFieldIndex(String name)
+   at Npgsql.NpgsqlDataReader.GetOrdinal(String name)
+   at Npgsql.NpgsqlDataReader.get_Item(String name)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 333
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 405 (fe822d0c)
+2024-08-16T16:46:45.3643525+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-16T16:46:45.3674829+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-16T16:46:45.3705981+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-16T16:46:45.3737170+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-16T16:46:45.3759664+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-16T16:47:02.1148442+05:30 0HN5TSJL0QMQ7:00000009 [INF] ================================================= (9934009c)
+2024-08-16T16:47:02.1261712+05:30 0HN5TSJL0QMQ7:00000009 [INF] Request API Started at:16-08-2024 16:47:02 (b16ab68d)
+2024-08-16T16:47:04.7023682+05:30 0HN5TSJL0QMQ7:00000009 [INF] consent-requests/data (8b449d30)
+2024-08-16T16:47:21.1351199+05:30 0HN5TSJL0QMQ7:00000009 [ERR] Error:Unable to cast object of type 'System.String' to type 'System.String[]'.    at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 333
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 405 (a2824de0)
+2024-08-16T16:48:07.7675339+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-16T16:48:07.7707060+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-16T16:48:07.7799290+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-16T16:48:07.7816134+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-16T16:48:07.7832166+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-16T16:48:18.4094041+05:30 0HN5TSKDGKJEA:00000009 [INF] ================================================= (9934009c)
+2024-08-16T16:48:18.4214385+05:30 0HN5TSKDGKJEA:00000009 [INF] Request API Started at:16-08-2024 16:48:18 (2b32e4a2)
+2024-08-16T16:48:20.4294807+05:30 0HN5TSKDGKJEA:00000009 [INF] consent-requests/data (8b449d30)
+2024-08-16T17:01:13.4024715+05:30  [INF] Now listening on: "https://0.0.0.0:5001" (d826f4b8)
+2024-08-16T17:01:13.4054237+05:30  [INF] Now listening on: "http://0.0.0.0:5000" (d826f4b8)
+2024-08-16T17:01:13.4094697+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-16T17:01:13.4111833+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-08-16T17:01:13.4132401+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
+2024-08-16T17:01:35.5279647+05:30 0HN5TSRNMGM8N:00000009 [INF] ================================================= (9934009c)
+2024-08-16T17:01:35.5370285+05:30 0HN5TSRNMGM8N:00000009 [INF] Request API Started at:16-08-2024 17:01:35 (eddbb521)
+2024-08-16T17:01:37.6055515+05:30 0HN5TSRNMGM8N:00000009 [INF] consent-requests/data (8b449d30)
+2024-08-16T17:01:54.0639919+05:30 0HN5TSRNMGM8N:00000009 [ERR] An error occurred using the connection to database '"hiu_stag"' on server '"tcp://10.194.162.47:5432"'. (5fc3407c)
+2024-08-16T17:02:13.1657485+05:30 0HN5TSRNMGM8N:00000009 [ERR] Error:An exception has been raised that is likely due to a transient failure. Npgsql.NpgsqlException (0x80004005): Failed to connect to 10.194.162.47:5432
+ ---> System.TimeoutException: The operation has timed out.
+   at Npgsql.TaskTimeoutAndCancellation.ExecuteAsync(Func`2 getTaskFunc, NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|34_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at HIUServices.Repostitories.Requests.RequestService.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Repostitories\Requests\RequestService.cs:line 317
+   at HIUServices.Controllers.RequestController.ConsentRequestsData(ConsentRequestsDataDto consentRequestDataDto) in D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices\Controllers\RequestController.cs:line 405 (91983ff6)
+2024-08-16T17:02:35.4274571+05:30 0HN5TSRNMGM8P:00000001 [INF] ================================================= (9934009c)
+2024-08-16T17:02:35.4312015+05:30 0HN5TSRNMGM8P:00000001 [INF] Request API Started at:16-08-2024 17:02:35 (277ad10e)
+2024-08-16T17:02:37.2573161+05:30 0HN5TSRNMGM8P:00000001 [INF] consent-requests/data (8b449d30)

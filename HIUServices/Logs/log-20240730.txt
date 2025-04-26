@@ -1,0 +1,3 @@
+2024-07-30T10:56:14.7233027+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-07-30T10:56:14.7360563+05:30  [INF] Hosting environment: "Development" (bc5a1a4e)
+2024-07-30T10:56:14.7391732+05:30  [INF] Content root path: "D:\PROJECTS\RCH\ABHA\M3\RCH-HIU-SERVICES\HIUServices" (cc26f24e)
